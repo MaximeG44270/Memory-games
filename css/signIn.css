@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+.background {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    color: #fff;
+    transition: all 1s ease-out;
+}
+
+.Home {
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Register {
+    margin-left: 10vw;
+    width: 10vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Signin {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Profil {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Game {
+    margin-left: 10vw;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+li:hover,
+li:focus {
+    background-color: #fff;
+    color: #333;
+}
+/*---------------Main content-1---------------*/
+.main {
+    height: 73vh;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    display: grid;
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+.picture-marvel {
+    width: 14%;
+    place-self: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3vh;
+}
+
+h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: -2vh;
+    color: #fff;
+    text-align: center;
+}
+
+.memory {
+    font-family: 'Water Brush', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: -7vh;
+    color: #fff;
+    text-align: center;
+}
+
+#connecterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -19vh;
+}
+
+.input {
+    width: 70%;
+    height: 3vh;
+    margin-top: 2vh;
+    border: solid;
+    border-color: #dc2e22;
+    background-color: #1e365b;
+}
+
+label {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 2vh;
+    background-color: #1e365b;
+    border-radius: 15px;
+}
+
+.button {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4vw;
+}
+
+.connecter {
+    margin-right: 5vw;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+}
+
+.annuler {
+    margin-right: 5vw;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+}

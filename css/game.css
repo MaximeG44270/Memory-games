@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+}
+.background {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    color: #fff;
+    transition: all 1s ease-out;
+}
+
+.Home {
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Register {
+    margin-left: 10vw;
+    width: 10vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Signin {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Profil {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Game {
+    margin-left: 10vw;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+li:hover,
+li:focus {
+    background-color: #fff;
+    color: #333;
+}
+
+/*---------------Main content---------------*/
+.main {
+    display: flex;
+}
+
+.main-1 {
+    height: 73vh;
+    justify-content: center;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.picture-marvel {
+    width: 14%;
+    place-self: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7vh;
+}
+
+h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: -3vh;
+    color: #fff;
+    text-align: center;
+}
+
+.memory {
+    font-family: 'Water Brush', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: -8vh;
+    color: #fff;
+    text-align: center;
+}
+
+.info {
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1vw;
+    margin-top: 6vh;
+}
+
+.info-1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #fffcdc;
+    font-size: 1.5rem;
+    color: #fffcdc;
+}
+
+.info-2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #fffcdc;
+    font-size: 1.5rem;
+}
+
+.cpt {
+    margin-left: 6vw;
+    display: flex;
+}
+
+#compteur {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fffcdc;
+    margin-left: 1vw;
+}
+
+.Text-cpt {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fffcdc;
+}
+
+.main-2 {
+    height: 73vh;
+    justify-content: center;
+    width: 36%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.memory-game {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.front-face,
+.back-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #212121;
+    backface-visibility: hidden;
+    border: solid;
+    border-color: #212121;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+.background {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+li {
+    color: #fff;
+    transition: all 1s ease-out;
+}
+.Home {
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.Register {
+    margin-left: 10vw;
+    width: 10vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.Signin {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.Profil {
+    margin-left: 10vw;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.Game {
+    margin-left: 10vw;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: currentColor;
+}
+li:hover,
+li:focus {
+    background-color: #fff;
+    color: #333;
+}
+/*---------------Main content-1---------------*/
+main {
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    display: grid;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+.picture-marvel {
+    width: 14%;
+    place-self: center;
+    margin-top: 5vh;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: -2vh;
+    color: #fff;
+    text-align: center;
+}
+
+.memory {
+    font-family: 'Water Brush', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: -7vh;
+    color: #fff;
+    text-align: center;
+    margin-left: 0vw;
+}
+main p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.p-liste {
+    margin-left: 1vw;
+}
+.text-main {
+    margin-left: 2vw;
+}
+
+
+
